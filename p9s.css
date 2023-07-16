@@ -1,0 +1,393 @@
+body {
+    background-color: #132044;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-menu a,
+.dropdown-menu {
+    background-color: black;
+    color: white;
+}
+
+.navbar2-container {
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    overflow-y: auto;
+    z-index: 100;
+    font-family: 'Montserrat', 'Open Sans', 'Raleway', 'Roboto', sans-serif;
+}
+
+div .bordered-paragraph {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}
+
+.move-up {
+    margin-top: 300px;
+}
+
+div h1 {
+    text-align: center;
+    margin-top: 55px;
+    font-size: 60px;
+    margin-left: 0px;
+    padding-top: 90px;
+    font-weight: bold;
+    color: white;
+    text-shadow:
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+}
+
+div h2:first-of-type {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    color: white;
+    text-shadow:
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+}
+
+.main-content {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 200px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    width: calc(100% - 200px);
+}
+
+.text-container {
+    max-width: 1500px;
+}
+
+.nav-bigger {
+    font-size: 25px;
+}
+
+.seperator {
+    height: 2px;
+    background-color: white;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-top: -40px;
+}
+
+.img-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #46458C;
+}
+
+.bordered-paragraph {
+    border: 1px solid #000000;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 0.01%;
+    width: 150px;
+    background-color: white;
+    margin-bottom: 30px;
+    height: 30px;
+    font-size: 10px;
+}
+
+.background-image {
+    background-image: url("p9s_header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-top: -20px;
+    height: 370px;
+    background-position: 0px -20px;
+    position: relative;
+}
+
+.pf_des2,
+.pf_des {
+    font-size: 40px;
+    padding-left: 300px;
+    color: white;
+}
+
+.Description {
+    border: 1px solid #000000;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 0.01%;
+    width: 500px;
+    background-color: black;
+    margin-bottom: 30px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    margin-right: 100px;
+}
+
+.p9s_markers {
+    height: 300px;
+}
+
+.Description_prepull1 {
+    font-size: 25px;
+    padding-right: 20px;
+    padding-top: 8px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.description_text {
+    font-size: 18px;
+    margin-top: -15px;
+    color: white;
+}
+
+.strat3 p,
+.strat2 p,
+.strat1 p,
+.tldr p {
+    padding-left: 300px;
+    color: white;
+}
+
+.tldr p:first-child {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.Description_prepull3 {
+    font-size: 20px;
+}
+
+.Description_prepull4 {
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+#slider,
+.wrap,
+.slide-content {
+    margin-left: 200px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    height: 500px;
+}
+
+.wrap {
+    position: relative;
+}
+
+.slide {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide1 {
+    background-image: url("LC_1.png");
+}
+
+.slide2 {
+    background-image: url("LC_2.png");
+}
+
+.slide3 {
+    background-image: url("LC_3.png");
+}
+
+.slide4 {
+    background-image: url("LC_4.png");
+}
+
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-content span {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    border-style: solid;
+}
+
+#arrow-left {
+    border-width: 30px 40px 30px 0;
+    border-color: transparent #fff transparent transparent;
+    margin-left: 210px;
+}
+
+#arrow-right {
+    border-width: 30px 0 30px 40px;
+    border-color: transparent transparent transparent #fff;
+    margin-left: 650px;
+}
+
+.raidplans a {
+    font-size: 30px;
+    padding-left: 300px;
+}
+
+.mechanicbreak {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    width: 100vw;
+    margin-left: -217px;
+}
+
+.textmechanic {
+    padding-left: 250px;
+}
+
+.break,
+.break1,
+.break3,
+.break2 {
+    color: #FFF;
+    margin-top: -10px;
+    padding-bottom: 2px;
+    margin-left: -217px;
+}
+
+.hide {
+    display: none;
+}
+
+
+#toggle-paragraph1,
+#toggle-paragraph3,
+#toggle-paragraph2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#toggle-paragraph1 {
+    margin-right: 475px;
+}
+
+.arrow-icon1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 500px;
+}
+
+#toggle-paragraph2 {
+    margin-right: 795px;
+}
+
+.arrow-icon2 {
+    position: absolute;
+    top: 40%;
+    margin-left: 257px;
+}
+
+#toggle-paragraph3 {
+    margin-right: 600px;
+}
+
+.arrow-icon3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 470px;
+}
+
+.arrow-wrapper {
+    position: relative;
+}
+
+.seperator1 {
+    height: 1px;
+    background-color: white;
+    margin: 0;
+    margin-left: 295px;
+    margin-right: auto;
+    width: 65%;
+}
+
+#toggle-paragraph2 {
+    position: relative;
+    margin-left: -180px;
+}
+
+#toggle-paragraph2 span {
+    position: absolute;
+    left: 570px;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.dropdown p:not(:first-child) {
+    color: white;
+}
+
+#toggle-content3,
+#toggle-content2,
+#toggle-content1 {
+    color: white;
+    margin-left: 150px;
+}
+
+#toggle-content3 br,
+#toggle-content2 br,
+#toggle-content1 br {
+    margin-bottom: 15px;
+    /* Adjust the margin-bottom value as needed */
+}
+
+.numbers {
+    color: red;
+}
+
+.ffxiv {
+    border: 2px grey solid;
+    background-color: #0c1633;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 150px;
+
+}
+
+.myLicense {
+    margin-left: 100px;
+    font-size: 13px;
+}
+
+.squarelicense {
+    font-size: 13px;
+}
