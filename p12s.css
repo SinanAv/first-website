@@ -1,6 +1,6 @@
 body {
     background-color: #132044;
-    font-family: 'Montserrat', 'Open Sans', 'Raleway', 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .dropdown-menu {
@@ -321,6 +321,7 @@ div h2:first-of-type {
 }
 
 #toggle-content3,
+#toggle-content2,
 #toggle-content1 {
     margin-left: 300px;
 }

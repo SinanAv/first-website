@@ -1,6 +1,6 @@
 body {
     background-color: #132044;
-    font-family: 'Montserrat', 'Open Sans', 'Raleway', 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .dropdown-menu {
@@ -257,10 +257,7 @@ div h2:first-of-type {
     text-align: center;
     padding: 10px;
     width: 100vw;
-    /* Set the width to 100vw for full viewport width */
-
-    margin-left: -217px;
-    /* Remove the left margin */
+    margin-left: -300px;
 }
 
 .textmechanic {
@@ -306,46 +303,32 @@ div h2:first-of-type {
 #toggle-paragraph1,
 #toggle-paragraph3,
 #toggle-paragraph2 {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    margin-left: 300px;
     font-size: 50px;
     color: white;
     margin-top: 10px;
     cursor: pointer;
 }
 
-#toggle-paragraph1 {
-    margin-right: 360px;
-}
-
 .arrow-icon1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 610px;
-}
-
-#toggle-paragraph2 {
-    margin-right: 520px;
+    margin-left: 655px;
 }
 
 .arrow-icon2 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 775px;
-}
-
-#toggle-paragraph3 {
-    margin-right: 487px;
+    margin-left: 820px;
 }
 
 .arrow-icon3 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 740px;
+    margin-left: 790px;
 }
 
 .arrow-wrapper {

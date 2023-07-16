@@ -1,13 +1,11 @@
 body {
     background-color: #132044;
-    font-family: 'Montserrat', 'Open Sans', 'Raleway', 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.dropdown-menu a,
 .dropdown-menu {
     background-color: black;
-}
-
-.dropdown-menu a {
     color: white;
 }
 
@@ -303,58 +301,44 @@ div h2:first-of-type {
     height: 1px;
     background-color: white;
     margin: 0;
-    margin-left: 145px;
+    margin-left: 300px;
     margin-right: auto;
     width: 75%;
 }
 
 #toggle-paragraph1,
-#toggle-paragraph,
+#toggle-paragraph3,
 #toggle-paragraph2 {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    margin-left: 300px;
     font-size: 50px;
     color: white;
     margin-top: 10px;
     cursor: pointer;
 }
 
-#toggle-paragraph {
-    padding-right: 480px;
-}
-
 .arrow-icon1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 550px;
-}
-
-#toggle-paragraph2 {
-    margin-right: 910px;
+    margin-left: 450px;
 }
 
 .arrow-icon2 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 980px;
-}
-
-#toggle-paragraph1 {
-    margin-right: 890px;
+    margin-left: 825px;
 }
 
 .arrow-icon3 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 955px;
+    margin-left: 822px;
 }
 
 .carousel-indicators {
-    margin-right: 700px;
+    margin-right: 200px;
 }
 
 .carousel-inner {
@@ -362,11 +346,11 @@ div h2:first-of-type {
 }
 
 .carousel-control-prev {
-    margin-left: 100px;
+    margin-left: 130px;
 }
 
 .carousel-control-next {
-    margin-right: 550px;
+    margin-right: 170px;
 }
 
 .arrow-wrapper {
@@ -379,6 +363,10 @@ div h2:first-of-type {
 
 .dropdown p:not(:first-child) {
     color: white;
+}
+
+.dropdown {
+    max-width: 1441px;
 }
 
 #toggle-content3,

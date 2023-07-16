@@ -108,7 +108,6 @@ div h2:first-of-type {
     background-image: url("p9s_header.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right top;
     margin-top: -20px;
     height: 370px;
     background-position: 0px -20px;
@@ -278,13 +277,10 @@ div h2:first-of-type {
     display: none;
 }
 
-
 #toggle-paragraph1,
 #toggle-paragraph3,
 #toggle-paragraph2 {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    margin-left: 300px;
     font-size: 50px;
     color: white;
     margin-top: 10px;
@@ -299,28 +295,29 @@ div h2:first-of-type {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 500px;
+    margin-left: 440px;
 }
 
 #toggle-paragraph2 {
-    margin-right: 795px;
+    margin-right: 820px;
 }
 
 .arrow-icon2 {
     position: absolute;
-    top: 40%;
-    margin-left: 257px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 787px;
 }
 
 #toggle-paragraph3 {
-    margin-right: 600px;
+    margin-right: 440px;
 }
 
 .arrow-icon3 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 470px;
+    margin-left: 405px;
 }
 
 .arrow-wrapper {
@@ -331,19 +328,9 @@ div h2:first-of-type {
     height: 1px;
     background-color: white;
     margin: 0;
-    margin-left: 295px;
+    margin-left: 300px;
     margin-right: auto;
     width: 65%;
-}
-
-#toggle-paragraph2 {
-    position: relative;
-    margin-left: -180px;
-}
-
-#toggle-paragraph2 span {
-    position: absolute;
-    left: 570px;
 }
 
 .rotate {
@@ -358,14 +345,13 @@ div h2:first-of-type {
 #toggle-content2,
 #toggle-content1 {
     color: white;
-    margin-left: 150px;
+    margin-left: 300px;
 }
 
 #toggle-content3 br,
 #toggle-content2 br,
 #toggle-content1 br {
     margin-bottom: 15px;
-    /* Adjust the margin-bottom value as needed */
 }
 
 .numbers {
