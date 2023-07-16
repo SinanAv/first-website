@@ -207,7 +207,7 @@ div h2:first-of-type {
 .raidplans p {
     color: white;
     font-size: 40px;
-    padding-left: 300px;
+    padding-left: 310px;
 }
 
 .raidplans a {
@@ -221,10 +221,7 @@ div h2:first-of-type {
     text-align: center;
     padding: 10px;
     width: 100vw;
-    /* Set the width to 100vw for full viewport width */
-
     margin-left: -217px;
-    /* Remove the left margin */
 }
 
 .textmechanic {
@@ -330,7 +327,6 @@ div h2:first-of-type {
 #toggle-content2 br,
 #toggle-content1 br {
     margin-bottom: 15px;
-    /* Adjust the margin-bottom value as needed */
 }
 
 .ffxiv {
